@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(241,241,241,255);
+    width: 100%;
+    position: relative;
+}
+
+.container .navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.navbar .all-nav{
+    padding:1.25rem 1rem;
+}
+.all-nav .link{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    row-gap: 1rem;
+
+}
+.img img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.all-nav .icons{
+    padding-top: 2rem;
+}
+.link p{
+    font-size: 15px;
+}
+.color{
+    color: rgba(1,150,136,255);
+}
+.link .PORTFOLIO{
+    color: rgba(1,150,136,255);
+}
+.PORTFOLIO:hover{
+ cursor: pointer;
+}
+.ABOUT:hover{
+    color: rgba(1,150,136,255);
+    cursor: pointer;
+}
+.CONTACT:hover{
+    color: rgba(1,150,136,255);
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    right: 0%;
+    position: absolute;
+    padding: 1rem 2rem ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.My-Portfolio{
+    border: none;
+    border-bottom: 6px solid lightgray;
+}
+.My-Portfolio h2{
+    font-size: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.My-Portfolio span{
+    padding-right: 1rem;
+}
+.My-Portfolio button{
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.My-Portfolio .all{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.all:hover{
+    background-color: lightgray;
+    color: black;
+}
+.My-Portfolio i{
+    padding-right: 1rem;
+}
